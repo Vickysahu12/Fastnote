@@ -60,3 +60,6 @@ async def delete_note(note_id:int):
         await session.delete(note)
         await session.commit()
         return{"Message":"deleted"}
+    
+
+    # lets do this man vicky 

@@ -31,3 +31,4 @@ async def note_delete(note_id:int):
     return response
 
     # sry we are gonna restart again and in this month we will gonna launch our first app i promise to my child self
+    # Lets fucking do this man vicky and we can do this man
