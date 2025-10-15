@@ -14,10 +14,12 @@ class NotePatch(BaseModel):
     title:str | None = None
     content:str | None = None
 
+# For Update
 class NoteUpdate(BaseModel):
     title:str
     content:str 
 
+# For Delete
 class NoteOut(NoteBase):
     id:int
     model_config = ConfigDict(from_attributes=True)
